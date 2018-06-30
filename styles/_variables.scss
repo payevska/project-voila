@@ -47,25 +47,22 @@ body {
 %for-h1 {
 	font:{
      family: 'PT_SerifWebBold';
-	   size: 80px;
+	   size: 52px;
 	   weight: $bold;
     }
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    line-height: 90px;
-    color: $black;
+    text-transform: uppercase;    
+    line-height: 54px;
+    color: $white;
 }
 
 %for-h2 {
 	font:{
-      family: 'PT_SerifWebBold';
-	    size: 41px;
-	    weight: $medium;
+      family: 'PT_SerifWebRegular';
+	    size: 36px;
+	    weight: $regular;
     }
-    text-transform: uppercase;
-    line-height: 50px;
-    letter-spacing: 6px;
-    color: $black;
+    line-height: 40px;
+    color: $white;
 }
 
 %for-h3 {

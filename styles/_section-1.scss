@@ -8,6 +8,29 @@
 
 .general-page{
 	&__text {
-		    margin-top: 215px;
+		    margin-top: 240px;
+		    &_topic {
+		    	@extend %for-h1;
+		    	margin-top: 0;
+		    }
+		    &_main {
+		    	@extend %for-h2;
+		    	font-weight: $light;
+		    	margin-top: 0;
+		    	margin-bottom: 50px;
+		    }
 	}	
+}
+
+.link-line {
+	@extend %for-h2;
+	margin-top: 0;
+	text-decoration: underline;
+	/* border-bottom: 2px solid $white; */
+}
+
+.btns {
+	&_vip {
+		@extend %for-buttons;
+	}
 }

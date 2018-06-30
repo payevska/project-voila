@@ -75,12 +75,39 @@ body {
   line-height: 26px;
 }
 
+.general-page__text_topic {
+  font-family: 'PT_SerifWebBold';
+  font-size: 52px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+
+.general-page__text_main, .link-line {
+  font-family: 'PT_SerifWebRegular';
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
 .choice {
   font-family: 'PT_SerifWebBold';
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
   color: #FFFFFF;
+}
+
+.btns_vip {
+  font-family: 'PT_SerifWebRegular';
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000;
+  padding: 12px 30px;
+  background-color: #223569;
+  border-radius: 3px;
 }
 
 .nav__menu ul:after, .submenu ul:after {
@@ -197,7 +224,21 @@ body {
 }
 
 .general-page__text {
-  margin-top: 215px;
+  margin-top: 240px;
+}
+.general-page__text_topic {
+  margin-top: 0;
+}
+.general-page__text_main {
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.link-line {
+  margin-top: 0;
+  text-decoration: underline
+  /* border-bottom: 2px solid $white; */
 }
 
 /* -------- fonts -------- */
