@@ -1,0 +1,13 @@
+.section-1 {
+	background-image: url("../images/section-main.png");
+	background-size: cover;
+	padding-top: 40px;
+}
+
+
+
+.general-page{
+	&__text {
+		    margin-top: 215px;
+	}	
+}

@@ -53,4 +53,51 @@ $light: 300;
     font-weight: $regular;     
 }
 
+@font-face {
+    font-family: 'PT_SansWebBold';
+    src: url('fonts/PT_SansWebBold.eot');
+    src: url('fonts/PT_SansWebBold.eot') format('embedded-opentype'),
+         url('fonts/PT_SansWebBold.woff2') format('woff2'),
+         url('fonts/PT_SansWebBold.woff') format('woff'),
+         url('fonts/PT_SansWebBold.ttf') format('truetype'),
+         url('fonts/PT_SansWebBold.svg#PT_SansWebBold') format('svg');
+    font-style: normal;
+    font-weight: $bold;
+}
+
+@font-face {
+    font-family: 'PT_SansWebBoldItalic';
+    src: url('fonts/PT_SansWebBoldItalic.eot');
+    src: url('fonts/PT_SansWebBoldItalic.eot') format('embedded-opentype'),
+         url('fonts/PT_SansWebBoldItalic.woff2') format('woff2'),
+         url('fonts/PT_SansWebBoldItalic.woff') format('woff'),
+         url('fonts/PT_SansWebBoldItalic.ttf') format('truetype'),
+         url('fonts/PT_SansWebBoldItalic.svg#PT_SansWebBoldItalic') format('svg');
+    font-style: normal;
+    font-weight: $bold;
+}
+
+@font-face {
+    font-family: 'PT_SansWebItalic';
+    src: url('fonts/PT_SansWebItalic.eot');
+    src: url('fonts/PT_SansWebItalic.eot') format('embedded-opentype'),
+         url('fonts/PT_SansWebItalic.woff2') format('woff2'),
+         url('fonts/PT_SansWebItalic.woff') format('woff'),
+         url('fonts/PT_SansWebItalic.ttf') format('truetype'),
+         url('fonts/PT_SansWebItalic.svg#PT_SansWebItalic') format('svg');
+    font-style: normal;
+    font-weight: $light;     
+}
+
+@font-face {
+    font-family: 'PT_SansWebRegular';
+    src: url('fonts/PT_SansWebRegular.eot');
+    src: url('fonts/PT_SansWebRegular.eot') format('embedded-opentype'),
+         url('fonts/PT_SansWebRegular.woff2') format('woff2'),
+         url('fonts/PT_SansWebRegular.woff') format('woff'),
+         url('fonts/PT_SansWebRegular.ttf') format('truetype'),
+         url('fonts/PT_SansWebRegular.svg#PT_SansWebRegular') format('svg');
+    font-style: normal;
+    font-weight: $regular;
+}
 
