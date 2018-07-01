@@ -50,11 +50,7 @@
 }
 
 .submenu-li {
-  display: block;
-  color: $white;
-  a:hover {
-    color: $white-op;
-  }
+  display: block;  
 }
 
 .submenu-a {      
@@ -69,20 +65,17 @@
   text-decoration: none;
 }
 .choice {
-	@extend %for-h3;
+	@extend %for-h3;	
 }
 
 .color-orange {
-	color: $orange;
-	a:hover {
-    color: $orange-op;
-  }
+	color: $orange;	
 }
 
 .header-logo {
 	padding-left: 0;
   padding-right: 0;
-}
+}  
 
 .header-menu {
 	padding-left: 0;

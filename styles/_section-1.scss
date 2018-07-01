@@ -38,13 +38,7 @@
 }
 
 .btn {
-	font: {
-	  family: 'PT_SansWebBold';
-	  size: 13px;
-  }
-  background-color: $orange;
-  border: none;
-  line-height: 13px;
+	@extend %for-buttons;	
   padding: 18px 51px;
   margin: 0 10px;
 }

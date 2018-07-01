@@ -76,15 +76,13 @@ body {
 }
 
 %for-buttons {
-	font:{
-      family: 'PT_SerifWebRegular';
-	    size: 16px;
-	}
-  text-transform: uppercase;
-  color: $black;
-  padding: 12px 30px;
-  background-color: $blue;
-  border-radius: 3px;
+	font: {
+	  family: 'PT_SansWebBold';
+	  size: 13px;
+  }
+  background-color: $orange;
+  border: none;
+  line-height: 13px;  
 }
 
 %for-input {
@@ -109,7 +107,12 @@ body {
   padding-bottom: 35px;
 }
 
-
+%for-a {
+	a:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+}
 
 
 

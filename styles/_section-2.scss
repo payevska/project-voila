@@ -1,0 +1,62 @@
+.section-2 {
+	padding-top: 120px;
+	background-color: rgb(247, 247, 247);
+}
+
+
+
+.page-about {
+	&__info {		
+		&_topic-info {
+			@extend %for-h1;
+			font-size: 26px;
+			line-height: 30px;
+			text-transform: uppercase;
+			color: $black;
+			margin-top: 55px;
+    	margin-bottom: 30px;
+    	color: $grey-dark;
+		}
+		&_text-info {
+			font: {
+				family: 'PT_SansWebRegular';
+				size: 16px;
+		  }
+		  color: $grey-dark;
+		}	
+	}
+}
+
+.text-down {
+	margin-bottom: 40px;
+}
+
+.btn-read {
+	@extend %for-buttons;	
+  padding: 18px 46px;
+  margin: 0;
+  float: right;
+      margin-bottom: 48px;
+}
+
+.select {		
+	color: $orange;	
+}  
+
+.select:hover {
+ 	color: $orange-op;
+ 	text-decoration: none;
+ 	cursor: pointer;	
+}	
+
+.foto-glass {
+	  width: 142%;
+}
+
+.page-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+.foto-shef {
+
+}
