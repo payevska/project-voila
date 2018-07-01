@@ -80,7 +80,7 @@ body {
   font-size: 52px;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 54px;
+  line-height: 56px;
   color: #FFFFFF;
 }
 
@@ -100,16 +100,6 @@ body {
   color: #FFFFFF;
 }
 
-.btns_vip {
-  font-family: 'PT_SerifWebRegular';
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #000;
-  padding: 12px 30px;
-  background-color: #223569;
-  border-radius: 3px;
-}
-
 .nav__menu ul:after, .submenu ul:after {
   display: block;
   content: ' ';
@@ -120,6 +110,8 @@ body {
 .header {
   width: 100%;
   padding-top: 40px;
+  padding-bottom: 70px;
+  background-color: rgba(125, 140, 120, 0.55);
   position: fixed;
   z-index: 6;
 }
@@ -232,7 +224,15 @@ body {
 .general-page__text_main {
   font-weight: 300;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
+}
+.general-page__text_btns {
+  margin-bottom: 138px;
+}
+.general-page__text_scroll-text {
+  font-family: 'PT_SansWebRegular';
+  font-size: 14px;
+  color: #FFFFFF;
 }
 
 .link-line {
@@ -241,6 +241,68 @@ body {
   /* border-bottom: 2px solid $white; */
 }
 
+.btn {
+  font-family: 'PT_SansWebBold';
+  font-size: 13px;
+  background-color: #ff6633;
+  border: none;
+  line-height: 13px;
+  padding: 18px 51px;
+  margin: 0 10px;
+}
+
+.button-left {
+  padding: 18px 41px;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.73);
+}
+
+/* --------- scroll mouse start -------- */
+#mice {
+  margin: 0 auto;
+  padding-bottom: 4em;
+  width: 20px;
+  height: 0;
+}
+
+#mice span {
+  display: block;
+  width: 9px;
+  height: 9px;
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  border-right: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  margin: -4px 0 0 6px;
+}
+
+.unu {
+  margin-top: 6px;
+}
+
+.unu, .doi {
+  -webkit-animation: mouse-scroll 1s infinite;
+  -moz-animation: mouse-scroll 1s infinite;
+}
+
+.unu {
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -webkit-animation-direction: alternate;
+}
+
+.doi {
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -webkit-animation-direction: alternate;
+}
+
+/* --------- scroll mouse finish -------- */
 /* -------- fonts -------- */
 /* -------- colors -------- */
 /* -------- variables -------- */
