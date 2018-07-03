@@ -7,12 +7,14 @@
 
 
 .page-about {
-	&__info {		
+	&__info {
+	padding-left: 0;
+    padding-right: 27px;		
 		&_topic-info {
 			@extend %for-h1;
 			font-size: 26px;
 			line-height: 30px;
-			text-transform: uppercase;
+			text-transform: none;
 			color: $black;
 			margin-top: 55px;
     	margin-bottom: 30px;
@@ -56,11 +58,11 @@
 }
 
 .foto-shef {
-	max-width: 119%;
+	max-width: 112%;
 	position: absolute;
     z-index: 5;
     bottom: -300px;
-    right: 393px;
+    right: 413px;
 }
 
 .foto-kitchen {

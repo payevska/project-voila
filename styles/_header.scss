@@ -72,10 +72,13 @@
 	color: $orange;	
 }
 
-.header-logo {
-	padding-left: 0;
-  padding-right: 0;
+.header-logo {	
+  /* padding-left: 10px; */
 }  
+
+.logotype {
+ display: flex;
+}
 
 .header-menu {
 	padding-left: 0;

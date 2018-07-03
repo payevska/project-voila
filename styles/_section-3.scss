@@ -1,0 +1,88 @@
+.section-3 {
+	margin-top: 120px;
+	margin-bottom: 375px;
+	padding-left: 0;
+    padding-right: 0;	
+}
+
+.wrap-img {
+	
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.servic-meal {
+	padding-left: 0;
+    padding-right: 0;
+}
+.foto-meal-2 {
+	max-width: 99%;
+    padding-right: 15px;
+}
+
+.foto-meal-3 {
+margin-left: 15px;
+    max-width: 140%;
+}
+
+.foto-meal-4 {
+    width: 100%;
+    padding-top: 30px;
+}   
+
+.servic-text{
+	padding-right: 30px;
+}
+
+.page-services {
+	padding-left: 0;
+    padding-right: 0;
+	&__info {
+		padding-left: 0;
+        padding-right: 0;
+	/* display: flex;
+    align-items: unsafe;
+    flex-wrap: wrap;
+    align-items: flex-end; */		
+		&_topic-info {
+			@extend %for-h1;
+			font-size: 26px;
+			line-height: 30px;
+			text-transform: none;
+			color: $black;
+			margin-top: 55px;
+    	    margin-bottom: 30px;
+    	    color: $grey-dark;
+		}
+		&_text-info {
+			font: {
+				family: 'PT_SansWebRegular';
+				size: 16px;
+		  }
+		  color: $grey-dark;
+		}	
+	}
+}
+
+.text-down {
+	margin-bottom: 40px;
+}
+
+.btn-read {
+	@extend %for-buttons;	
+  padding: 18px 46px;
+  margin: 0;
+  float: right;
+      margin-bottom: 56px;
+}
+
+.select {		
+	color: $orange;	
+}  
+
+.select:hover {
+ 	color: $orange-op;
+ 	text-decoration: none;
+ 	cursor: pointer;	
+}
