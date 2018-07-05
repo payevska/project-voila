@@ -1,6 +1,5 @@
 .section-2 {
 	padding-top: 120px;
-	padding-bottom: 375px;
 	background-color: rgb(247, 247, 247);
 }
 
@@ -28,6 +27,9 @@
 		  color: $grey-dark;
 		}	
 	}
+	&__foto-info {
+		display: flex;
+	}
 }
 
 .text-down {
@@ -37,9 +39,9 @@
 .btn-read {
 	@extend %for-buttons;	
   padding: 18px 46px;
-  margin: 0;
   float: right;
-      margin-bottom: 56px;
+  margin-right: 20px;
+  margin-bottom: 56px;
 }
 
 .select {		
@@ -53,30 +55,38 @@
 }	
 
 .foto-glass {
-	max-width: 147%;
-	/* position: relative; */
+	max-width: 144%;	
+}
+
+.foto-about-line {
+	margin-bottom: 120px;
+}
+
+.shef {
+	padding-left: 0;
+	margin-top: -92px;
 }
 
 .foto-shef {
-	max-width: 112%;
-	position: absolute;
-    z-index: 5;
-    bottom: -300px;
-    right: 413px;
+	max-width: 100%;
+}
+
+.kitchen {
+	display: flex;
+	margin-top: 32px;
 }
 
 .foto-kitchen {
-	max-width: 67%;
-	z-index: 4;
-    position: absolute;
-    left: 86px;
-    bottom: -300px;    
+	max-width: 79%;
+	margin-right: 30px;    
 }
 
 .foto-meal {
-	max-width: 49%;
-	z-index: 3;
-    position: absolute;
-    bottom: -300px;
-    right: -186px;
+	max-width: 66%;
 }
+
+
+
+
+
+        

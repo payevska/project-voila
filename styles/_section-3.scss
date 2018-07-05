@@ -1,8 +1,8 @@
 .section-3 {
 	margin-top: 120px;
-	margin-bottom: 375px;
+	margin-bottom: 120px;
 	padding-left: 0;
-    padding-right: 0;	
+  padding-right: 0;	
 }
 
 .wrap-img {
@@ -13,17 +13,29 @@
 }
 
 .servic-meal {
+	display: flex;
+	align-items: flex-end;
 	padding-left: 0;
-    padding-right: 0;
+  padding-right: 0;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
 .foto-meal-2 {
-	max-width: 99%;
-    padding-right: 15px;
+	max-width: 49%;
+  margin-right: 15px;
 }
 
 .foto-meal-3 {
-margin-left: 15px;
-    max-width: 140%;
+	margin-left: 15px;    
+}
+
+.servic-meal-cake {
+	height: 214px;
+  display: flex;
+	align-items: flex-end;
+	padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
 }
 
 .foto-meal-4 {
@@ -38,20 +50,19 @@ margin-left: 15px;
 .page-services {
 	padding-left: 0;
     padding-right: 0;
+    &__meals {
+    	padding-left: 0;
+    }
 	&__info {
-		padding-left: 0;
-        padding-right: 0;
-	/* display: flex;
-    align-items: unsafe;
-    flex-wrap: wrap;
-    align-items: flex-end; */		
+	  padding-left: 27px;
+    padding-right: 0;		
 		&_topic-info {
 			@extend %for-h1;
 			font-size: 26px;
 			line-height: 30px;
 			text-transform: none;
 			color: $black;
-			margin-top: 55px;
+			margin-top: 65px;
     	    margin-bottom: 30px;
     	    color: $grey-dark;
 		}
@@ -72,9 +83,9 @@ margin-left: 15px;
 .btn-read {
 	@extend %for-buttons;	
   padding: 18px 46px;
-  margin: 0;
   float: right;
-      margin-bottom: 56px;
+  margin-right: 20px;
+  margin-bottom: 56px;
 }
 
 .select {		
