@@ -8,6 +8,11 @@ body {
   padding-right: 0;
 }
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .clearfix::after {
 	display: block;
 	content: "";

@@ -3,20 +3,22 @@
 	background-color: rgb(247, 247, 247);
 }
 
-
+.fon-1 {
+	margin-bottom: 30px;
+}
 
 .page-about {
 	&__info {
-	padding-left: 0;
-    padding-right: 27px;		
+	padding-left: 15px;
+  padding-right: 13px;		
 		&_topic-info {
 			@extend %for-h1;
 			font-size: 26px;
 			line-height: 30px;
 			text-transform: none;
 			color: $black;
-			margin-top: 55px;
-    	margin-bottom: 30px;
+			margin-top: 60px;
+    	margin-bottom: 35px;
     	color: $grey-dark;
 		}
 		&_text-info {
@@ -25,15 +27,16 @@
 				size: 16px;
 		  }
 		  color: $grey-dark;
-		}	
+		  margin-bottom: 15px;
+		}
+		&_text-down {
+	    margin-bottom: 35px;
+    }	
 	}
 	&__foto-info {
 		display: flex;
+		align-items: stretch;
 	}
-}
-
-.text-down {
-	margin-bottom: 40px;
 }
 
 .btn-read {
@@ -55,34 +58,38 @@
 }	
 
 .foto-glass {
-	max-width: 144%;	
-}
-
-.foto-about-line {
-	margin-bottom: 120px;
+	width: 147%;	
 }
 
 .shef {
+	width: 118%;
 	padding-left: 0;
-	margin-top: -92px;
+	padding-right: 0;
+	display: flex;
+  align-items: flex-end;
+  margin-top: -135px;
+  margin-bottom: 120px;  
 }
 
 .foto-shef {
-	max-width: 100%;
+	
 }
 
 .kitchen {
-	display: flex;
-	margin-top: 32px;
+	overflow: hidden;
+  display: flex;
+  width: 29%;
+  margin-right: 30px;
+  align-items: inherit;
 }
 
 .foto-kitchen {
-	max-width: 79%;
-	margin-right: 30px;    
+	width: 118%;
+	margin-left: 30px;    
 }
 
 .foto-meal {
-	max-width: 66%;
+	width: 23%;
 }
 
 

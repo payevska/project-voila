@@ -7,12 +7,26 @@
 }
 
 .communication {
-	&__forms-write {
-		background-color: $white;
-		margin-right: 15px;
+	&__forms-info {
+		display: flex;
+		&_write {
+		  background-color: $white;
+		  margin-right: 15px;
+		}  
 	}
-	&__forms-contacts {
+	&__forms-calendar {
+		display: flex;
+		flex-direction: column;
 		background-color: $white;
 		margin-left: 15px;
+		&_form-right {
+      display: flex;  
+		  &_fotos-music {
+			  width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+		  }
+		}
 	}
 }

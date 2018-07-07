@@ -21,11 +21,12 @@
   margin-bottom: 30px;
 }
 .foto-meal-2 {
-	max-width: 49%;
+	max-width: 48%;
   margin-right: 15px;
 }
 
 .foto-meal-3 {
+	max-width: 73%;
 	margin-left: 15px;    
 }
 
@@ -44,17 +45,24 @@
 }   
 
 .servic-text{
-	padding-right: 30px;
+	
+}
+
+.servise-tasteful {
+	display: flex;
 }
 
 .page-services {
 	padding-left: 0;
+  padding-right: 0;
+  &__meals {
+    margin-right: 15px;
+    padding-left: 0;
     padding-right: 0;
-    &__meals {
-    	padding-left: 0;
-    }
+  }
 	&__info {
-	  padding-left: 27px;
+	  margin-left: 15px;
+	  padding-left: 11px;
     padding-right: 0;		
 		&_topic-info {
 			@extend %for-h1;
@@ -63,8 +71,8 @@
 			text-transform: none;
 			color: $black;
 			margin-top: 65px;
-    	    margin-bottom: 30px;
-    	    color: $grey-dark;
+    	margin-bottom: 27px;
+    	color: $grey-dark;
 		}
 		&_text-info {
 			font: {
@@ -77,7 +85,7 @@
 }
 
 .text-down {
-	margin-bottom: 40px;
+	margin-bottom: 35px;
 }
 
 .btn-read {
