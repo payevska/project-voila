@@ -12,21 +12,85 @@
 		&_write {
 		  background-color: $white;
 		  margin-right: 15px;
-		}  
-	}
-	&__forms-calendar {
-		display: flex;
-		flex-direction: column;
-		background-color: $white;
-		margin-left: 15px;
-		&_form-right {
-      display: flex;  
-		  &_fotos-music {
-			  width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        overflow: hidden;
+		  &_topic-name {
+		  	font:{
+			    family: 'PT_SerifWebBold';
+			    size: 22px;	
+			    weight: $medium;
+			  }
+			  line-height: 24px;
+			  color: $grey-dark;
 		  }
 		}
+		&_forms-calendar {
+			display: flex;
+			flex-direction: column;
+			background-color: $white;
+			margin-left: 15px;
+			padding-left: 30px;
+			&_topic-name {
+		  	font:{
+			    family: 'PT_SerifWebBold';
+			    size: 22px;	
+			    weight: $medium;
+			  }
+			  line-height: 24px;
+			  color: $grey-dark;
+		  }
+			&_form-right {
+		    display: flex;  
+			  &_fotos-music {
+				  width: 70px;
+		      height: 70px;
+		      border-radius: 50%;
+		      overflow: hidden;
+			  }
+			  &_info-list {
+	  	    width: 73%;
+			    margin-left: 20px;
+			  	&_topic-calls {
+			  		margin-top: 0;
+			  		font:{
+					    family: 'PT_SerifWebBold';
+					    size: 16px;	
+					    weight: $medium;
+					  }
+					  line-height: 20px;
+					  color: $orange;
+			  	}
+			  	&_adds {
+			  		font:{
+					    family: 'PT_SansWebRegular';
+					    size: 14px;	
+					    weight: $regular;
+					  }
+					  line-height: 16px;
+					  color: $grey-dark;
+			  	}
+			  	&_read-more {
+			  		font:{
+					    family: 'PT_SansWebItalic';
+					    size: 14px;	
+					    weight: $regular;
+					  }
+					  line-height: 16px;
+					  color: $orange;
+			  	}
+			  }
+			}
+	  }  
+	}	
+}
+
+.calendar {
+  display: flex;
+	&__dates {
+		font:{
+	    family: 'PT_SansWebRegular';
+	    size: 12px;	
+	    weight: $regular;
+	  }
+	  line-height: 14px;
+	  color: $grey-dark;
 	}
 }
