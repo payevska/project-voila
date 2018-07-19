@@ -418,17 +418,22 @@ body {
   .communication__forms-info_forms-calendar {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #FFFFFF;
     margin-left: 15px;
-    padding-left: 30px; }
+    padding-bottom: 20px; }
     .communication__forms-info_forms-calendar_topic-name {
+      margin-top: 80px;
+      margin-bottom: 37px;
       font-family: 'PT_SerifWebBold';
       font-size: 22px;
       font-weight: 500;
       line-height: 24px;
       color: #3b3b3b; }
     .communication__forms-info_forms-calendar_form-right {
-      display: flex; }
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px; }
       .communication__forms-info_forms-calendar_form-right_fotos-music {
         width: 70px;
         height: 70px;
@@ -439,16 +444,18 @@ body {
         margin-left: 20px; }
         .communication__forms-info_forms-calendar_form-right_info-list_topic-calls {
           margin-top: 0;
+          margin-bottom: 5px;
           font-family: 'PT_SerifWebBold';
           font-size: 16px;
           font-weight: 500;
           line-height: 20px;
           color: #ff6633; }
         .communication__forms-info_forms-calendar_form-right_info-list_adds {
+          margin-bottom: 0;
           font-family: 'PT_SansWebRegular';
           font-size: 14px;
           font-weight: 400;
-          line-height: 16px;
+          line-height: 20px;
           color: #3b3b3b; }
         .communication__forms-info_forms-calendar_form-right_info-list_read-more {
           font-family: 'PT_SansWebItalic';
@@ -460,11 +467,30 @@ body {
 .calendar {
   display: flex; }
   .calendar__dates {
+    margin-bottom: 15px;
     font-family: 'PT_SansWebRegular';
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
     color: #3b3b3b; }
+
+.foto-side {
+  position: relative; }
+  .foto-side__bang {
+    right: -50%;
+    position: absolute;
+    top: 35%;
+    transform: translateY(-45%); }
+  .foto-side__festival {
+    right: 50%;
+    position: absolute;
+    max-width: 270%;
+    top: -47%;
+    transform: translateX(50%); }
+  .foto-side__magic {
+    right: 64%;
+    position: absolute;
+    transform: translateX(50%); }
 
 /* -------- fonts -------- */
 /* -------- colors -------- */

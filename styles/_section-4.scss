@@ -25,10 +25,13 @@
 		&_forms-calendar {
 			display: flex;
 			flex-direction: column;
+			align-items: center;
 			background-color: $white;
 			margin-left: 15px;
-			padding-left: 30px;
+			padding-bottom: 20px;
 			&_topic-name {
+				margin-top: 80px;
+				margin-bottom: 37px;
 		  	font:{
 			    family: 'PT_SerifWebBold';
 			    size: 22px;	
@@ -38,7 +41,9 @@
 			  color: $grey-dark;
 		  }
 			&_form-right {
-		    display: flex;  
+		    display: flex;
+		    justify-content: center;
+		    margin-bottom: 30px;  
 			  &_fotos-music {
 				  width: 70px;
 		      height: 70px;
@@ -50,6 +55,7 @@
 			    margin-left: 20px;
 			  	&_topic-calls {
 			  		margin-top: 0;
+			  		margin-bottom: 5px;
 			  		font:{
 					    family: 'PT_SerifWebBold';
 					    size: 16px;	
@@ -59,12 +65,13 @@
 					  color: $orange;
 			  	}
 			  	&_adds {
+			  		margin-bottom: 0;
 			  		font:{
 					    family: 'PT_SansWebRegular';
 					    size: 14px;	
 					    weight: $regular;
 					  }
-					  line-height: 16px;
+					  line-height: 20px;
 					  color: $grey-dark;
 			  	}
 			  	&_read-more {
@@ -83,8 +90,9 @@
 }
 
 .calendar {
-  display: flex;
+  display: flex;  
 	&__dates {
+		margin-bottom: 15px;
 		font:{
 	    family: 'PT_SansWebRegular';
 	    size: 12px;	
@@ -92,5 +100,27 @@
 	  }
 	  line-height: 14px;
 	  color: $grey-dark;
+	}
+}
+
+.foto-side {
+	position: relative;
+	&__bang {
+		right: -50%;
+    position: absolute;
+    top: 35%;
+    transform: translateY(-45%);
+	}
+	&__festival {
+		right: 50%;
+    position: absolute;
+    max-width: 270%;
+    top: -47%;
+    transform: translateX(50%);
+	}
+	&__magic {
+		right: 64%;
+    position: absolute;
+    transform: translateX(50%);
 	}
 }
